@@ -1,16 +1,11 @@
 <script setup>
-import HelloWorld from './components/Proses.vue'
+import Proses from './components/Proses.vue'
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-    </a>
+    <Proses msg="Vite + Vue" />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
